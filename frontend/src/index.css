@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: orangered;
+}
+.header{
+  padding: 10px;
+ 
+
+}
+.content{
+  min-height: 90vh;
+  
+}
+.car_img{
+  height: 150px;
+  width: auto;
+border-radius: 5px;
+transform:translateY(-60px);
+
+}
+.car{
+  padding-top: 5%;
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 150px;
+  transition: 0.2s;
+}
+.car:hover{
+  height: 170px;
+}
+.car:hover > .car_content{
+  opacity: 1;
+  transform: translateY(-50px);
+  transition: .5s;
+  
+}
+h1{
+  margin: 5px;
+  font-weight: bold;
+  color: orangered;
+}
+p{
+  margin: 5px !important;
+  text-align: left;
+  padding:0;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border:2px solid orangered;
+  padding: 5px !important;
+  outline: none !important;
+}
+.btn1:focus{
+
+ border: none;
+}
+button{
+  padding: 4px !important;
+  border: green;
+}
+.car_content{
+  padding: 1%;
+  transform: translateY(-200px);
+  opacity: 0;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+}
+.login{
+  background-color: black;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.login label,.login h1{
+  color: white !important;
+  opacity: .6;
+}
+.login-form{
+  background-color: #1F1F1F;
+  opacity: .7;
+}
+.login-form input{
+  background-color: #333333;
+  border:none !important;
+  color: white;
+  opacity: .5;
+}
+.login-logo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  font-size: 35px;
+  opacity: 0.3;
+  color: white;
+  
+
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
+ 
+.header .btn-nav{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border:2px solid orangered;
+  padding: 5px !important;
+  outline: none !important;
+}
